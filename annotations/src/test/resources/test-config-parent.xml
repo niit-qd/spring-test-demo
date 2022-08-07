@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="employee0" class="org.example.jdbc.Employee">
+        <property name="id" value="21"/>
+        <property name="number" value="AF_0002"/>
+        <property name="name" value="li_si"/>
+        <property name="departmentId" value="AF"/>
+    </bean>
+
+</beans>
